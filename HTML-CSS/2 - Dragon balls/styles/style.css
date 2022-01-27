@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(../img/zmajevajaja.jpg);
+  height: 100vh;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 1rem;
+  align-items: center;
+}
+
+
+.navigacija li {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.navigacija__linkovi {
+  padding: 0.5rem;
+  background-color: rgb(236, 67, 16);
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 35px;
+  transition: all 0.3s ease 0.3s;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+}
+.main__linkovi {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
+  display: flex;
+  margin: 2rem;
+}
+
+.containter {
+  margin-top: 3rem;
+  
+}
+
+.main__linkovi:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
